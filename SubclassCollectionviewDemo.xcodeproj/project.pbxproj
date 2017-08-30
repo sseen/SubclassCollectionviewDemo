@@ -12,6 +12,9 @@
 		920C82311F564566003D2C22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 920C822F1F564566003D2C22 /* Main.storyboard */; };
 		920C82331F564566003D2C22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 920C82321F564566003D2C22 /* Assets.xcassets */; };
 		920C82361F564566003D2C22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 920C82341F564566003D2C22 /* LaunchScreen.storyboard */; };
+		920C823E1F564601003D2C22 /* SubCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920C823D1F564601003D2C22 /* SubCollectionView.swift */; };
+		928462C31F564E2B005DF77E /* RDHomeIBCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928462C11F564E2B005DF77E /* RDHomeIBCollectionViewCell.swift */; };
+		928462C41F564E2B005DF77E /* RDHomeIBCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 928462C21F564E2B005DF77E /* RDHomeIBCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		920C82321F564566003D2C22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		920C82351F564566003D2C22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		920C82371F564566003D2C22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		920C823D1F564601003D2C22 /* SubCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubCollectionView.swift; sourceTree = "<group>"; };
+		928462C11F564E2B005DF77E /* RDHomeIBCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RDHomeIBCollectionViewCell.swift; sourceTree = "<group>"; };
+		928462C21F564E2B005DF77E /* RDHomeIBCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RDHomeIBCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +62,13 @@
 			children = (
 				920C822B1F564566003D2C22 /* AppDelegate.swift */,
 				920C822D1F564566003D2C22 /* ViewController.swift */,
+				920C823D1F564601003D2C22 /* SubCollectionView.swift */,
 				920C822F1F564566003D2C22 /* Main.storyboard */,
 				920C82321F564566003D2C22 /* Assets.xcassets */,
 				920C82341F564566003D2C22 /* LaunchScreen.storyboard */,
 				920C82371F564566003D2C22 /* Info.plist */,
+				928462C11F564E2B005DF77E /* RDHomeIBCollectionViewCell.swift */,
+				928462C21F564E2B005DF77E /* RDHomeIBCollectionViewCell.xib */,
 			);
 			path = SubclassCollectionviewDemo;
 			sourceTree = "<group>";
@@ -123,6 +132,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				928462C41F564E2B005DF77E /* RDHomeIBCollectionViewCell.xib in Resources */,
 				920C82361F564566003D2C22 /* LaunchScreen.storyboard in Resources */,
 				920C82331F564566003D2C22 /* Assets.xcassets in Resources */,
 				920C82311F564566003D2C22 /* Main.storyboard in Resources */,
@@ -136,8 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				928462C31F564E2B005DF77E /* RDHomeIBCollectionViewCell.swift in Sources */,
 				920C822E1F564566003D2C22 /* ViewController.swift in Sources */,
 				920C822C1F564566003D2C22 /* AppDelegate.swift in Sources */,
+				920C823E1F564601003D2C22 /* SubCollectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +311,7 @@
 				920C823C1F564566003D2C22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
